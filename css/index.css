@@ -1,0 +1,42 @@
+h1 {
+    padding: 0.5em 0em 0em 0em;
+    background-color: #21618C;
+    height: 100px;
+    color: white;
+}
+
+h2 {
+    padding: 0.5em 0em 0em 0.5em;
+    color: black;
+}
+
+h3 {
+    padding: 0.5em 0em 0em 1em;
+    color: black;
+}
+
+hr {
+    padding: 0em 0em 0em 2em;
+}
+
+ol {
+    padding: 0em 0em 0em 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+}
+
+.all_h {
+    font-family: "微軟正黑體";
+}
+
+.p1 {
+    padding: 0em 0em 0em 2em;
+    font-family: "Lucida Console", "Courier New", monospace;
+    line-height: 24px;
+}
+
+.p2 {
+    padding: 0em 0em 0em 3em;
+    font-family: "Lucida Console", "Courier New", monospace;
+    line-height: 24px;
+}

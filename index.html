@@ -1,89 +1,177 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>About JianCheng</title>
-        <style>
-            h1 {
-                padding: 0.5em 0em 0em 0em;
-                background-color: #21618C;
-                height: 60px;
-                color: white;
-            }
-            h2 {
-                padding: 0.5em 0em 0em 0.5em;
-                color: black;
-            }
-            h3 {
-                padding: 0.5em 0em 0em 1em;
-                color: black;
-            }
-            hr {
-                padding: 0em 0em 0em 2em;
-            }
-            ol {
-                padding: 0em 0em 0em 5em;
-                font-family: Arial, Helvetica, sans-serif;
-                line-height: 24px;
-            }
-            .all_h{
-                font-family: "微軟正黑體";
-            }
-            .p1 {
-                padding: 0em 0em 0em 2em;
-                font-family: "Lucida Console", "Courier New", monospace;
-                line-height: 24px;
-            }
-            .p2 {
-                padding: 0em 0em 0em 3em;
-                font-family: "Lucida Console", "Courier New", monospace;
-                line-height: 24px;                
-            }
 
-        </style>
-    </head>
-    <body>
-        <!--title-->
-        <div class="section text-v-center">
-            <h1 class="all_h">
-                &nbsp;&nbsp; JianCheng (David) Chang
-            </h1>
-            <span>
-                <p class="p1">
-                    Data Analyst/Scientist
-                </p>
-            </span>
-            <span>
-                <p class="p1">
-                    Apply myself to be a statistical expert/consultant, keep improving programming, English and Japanese to enchance competitiveness. <br>
-                    During the office time, work efficient and innovative. <br>
-                    After work, enrich life by reading and exercising.
-                </p>
+<head>
+    <meta charset="utf-8">
+    <title>About JianCheng</title>
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        h1 {
+            padding: 0.5em 0em 0em 0em;
+            height: 100px;
+            color: white;
+        }
 
-            </span>
-        </div>
-        <hr align="left" size="10" color="#85C1E9" style=" margin:20px;">
-        <!--Work Experience-->
-        <div>
-            <h2 class="all_h">
-                &nbsp;&nbsp; Work Experience
-            </h2>
-            <!--Sea limited-->
-            <h3 class="all_h">
-                &nbsp;&nbsp; <u>Data Analyst</u>
-            </h3>
-            <p class="p2">
-                <strong>Sea Limited</strong>, Taipei City, Taiwan, <i>April 2022 - present</i><br>
+        h2 {
+            padding: 0.5em 0em 0em 0.5em;
+            color: black;
+        }
+
+        h3 {
+            padding: 0.5em 0em 0em 1em;
+            color: black;
+        }
+
+        hr {
+            padding: 0em 0em 0em 2em;
+        }
+
+        ol {
+            padding: 0em 0em 0em 5em;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 24px;
+        }
+
+        .all_h {
+            font-family: "微軟正黑體";
+        }
+
+        .hyperlink {
+            font-family: "微軟正黑體";
+            color: white;
+            text-decoration: none;
+        }
+
+        .p1 {
+            font-family: "Lucida Console", "Courier New", monospace;
+            line-height: 24px;
+        }
+
+        .p2 {
+            padding: 0em 0em 0em 3.3em;
+            font-family: "Lucida Console", "Courier New", monospace;
+            line-height: 24px;
+        }
+
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .button_img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--title-->
+    <main>
+        <div class="container py-4">
+            <div class="h-100 p-5 text-bg-dark rounded-3">
+                <div class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold">JianCheng (David) Chang</h1>
+                    <p class="p1">
+                        Data Analyst/Scientist
+                    </p>
+                    <p class="p1">Apply myself to be a statistical expert/consultant, keep improving
+                        programming, English and Japanese
+                        to enchance competitiveness. <br>
+                        During the office time, work efficient and innovative. <br>
+                        After work, enrich life by reading and exercising.
+                    </p>
+                    <button class="btn btn-primary btn-lg" type="button"
+                        onclick="window.open('https://www.linkedin.com/in/jian-cheng-chang-%E5%BC%B5%E5%81%A5%E8%AA%A0-56798b9a/')">
+                        <a class="hyperlink">
+                            <img class="button_img" src="assets/image/linkedin.png" />
+                            <span>LinkedIn</span>
+                        </a>
+                    </button>
+                    <button class="btn btn-info btn-lg" type="button"
+                        onclick="window.open('https://www.facebook.com/profile.php?id=100000197862435')">
+                        <a class="hyperlink">
+                            <img class="button_img" src="assets/image/facebook.png" />
+                            <span>Facebook</span>
+                        </a>
+                    </button>
+                    <button class="btn btn-success btn-lg" type="button" onclick="window.open('https://aris.tw/')">
+                        <a class="hyperlink">
+                            <img class="button_img" src="assets/image/website_logo.png" />
+                            <span>Blog</span>
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <hr align="left" size="10" color="#85C1E9" style=" margin:20px;">
+            <!--Work Experience-->
+            <div>
+                <h2 class="all_h">
+                    &nbsp;&nbsp; Work Experience
+                </h2>
+                <!--Sea limited-->
+                <h3 class="all_h">
+                    &nbsp;&nbsp; <u>Data Analyst</u>
+                </h3>
+                <p class="p2">
+                    <strong>Sea Limited</strong>, Taipei City, Taiwan, <i>April 2022 - present</i><br>
                 <ol>
                     <li>Data Cleaning - Financial Data Cleansing Automation</li>
                 </ol>
-            </p>
-            <!--Topco Global-->
-            <h3 class="all_h">
-                &nbsp;&nbsp; <u>Data Analyst</u>
-            </h3>
-            <p class="p2">
-                <strong>Topco Global</strong>, Taipei City, Taiwan, <i>July 2020 - April 2022</i><br>
+                </p>
+                <!--Topco Global-->
+                <h3 class="all_h">
+                    &nbsp;&nbsp; <u>Data Analyst</u>
+                </h3>
+                <p class="p2">
+                    <strong>Topco Global</strong>, Taipei City, Taiwan, <i>July 2020 - April 2022</i><br>
                 <ol>
                     <li>Power BI: Importing, teaching and supporting </li>
                     <li>
@@ -100,7 +188,8 @@
                         <ul>
                             <li>Power BI Report - Retail Overview</li>
                             <li>Power BI Report - Basket Analysis</li>
-                            <li>Member's Repurchasing Probability in Next 30 days Prediction and Sales Call Member list Recommendation</li>
+                            <li>Member's Repurchasing Probability in Next 30 days Prediction and Sales Call Member list
+                                Recommendation</li>
                         </ul>
                     </li>
                     <li>Exercise - CPBL Win/Loss Analysis</li>
@@ -112,13 +201,13 @@
                         </ul>
                     </li>
                 </ol>
-            </p>
-            <!--Coretronic-->
-            <h3 class="all_h">
-                &nbsp;&nbsp; <u>MIS Senior Engineer</u>
-            </h3>
-            <p class="p2">
-                <strong>Coretronic</strong>, Hsinchu, Taiwan, <i>April 2019 - June 2020</i><br>
+                </p>
+                <!--Coretronic-->
+                <h3 class="all_h">
+                    &nbsp;&nbsp; <u>MIS Senior Engineer</u>
+                </h3>
+                <p class="p2">
+                    <strong>Coretronic</strong>, Hsinchu, Taiwan, <i>April 2019 - June 2020</i><br>
                 <ol>
                     <li>Sales Forecast</li>
                     <li>Experimental Data Analysis - Gauge RR and Association Rule</li>
@@ -127,26 +216,26 @@
                     <li>Last Time buy Estimating</li>
                     <li>Warranty Price Calculation by Reliability</li>
                 </ol>
-            </p>
-            <!--IE Industrial Engineer-->
-            <h3 class="all_h">
-                &nbsp;&nbsp; <u>IE Industrial Engineer</u>
-            </h3>
-            <p class="p2">
-                <strong>SPIL</strong>, Hsinchu, Taiwan, <i>January 2018 - March 2020</i><br>
+                </p>
+                <!--IE Industrial Engineer-->
+                <h3 class="all_h">
+                    &nbsp;&nbsp; <u>IE Industrial Engineer</u>
+                </h3>
+                <p class="p2">
+                    <strong>SPIL</strong>, Hsinchu, Taiwan, <i>January 2018 - March 2020</i><br>
                 <ol>
                     <li>Product Price Report Automation</li>
                     <li>Monthly Cost Calculation Automation</li>
                     <li>System Design: Testing Time Comparison System</li>
                     <li>Testing Time prediction Modeling: Establish a Testing Time Prediction Model for IC-Testing</li>
                 </ol>
-            </p>
-            <!--Testing Process Engineer (WSPE)-->
-            <h3 class="all_h">
-                &nbsp;&nbsp; <u>Testing Process Engineer (WSPE)</u>
-            </h3>
-            <p class="p2">
-                <strong>SPIL</strong>, Hsinchu, Taiwan, <i>October 2015 - December 2018</i><br>
+                </p>
+                <!--Testing Process Engineer (WSPE)-->
+                <h3 class="all_h">
+                    &nbsp;&nbsp; <u>Testing Process Engineer (WSPE)</u>
+                </h3>
+                <p class="p2">
+                    <strong>SPIL</strong>, Hsinchu, Taiwan, <i>October 2015 - December 2018</i><br>
                 <ol>
                     <li>Defend T. corp. Suspect the Parameter of the Prober Machine by DOE</li>
                     <li>N. corp. Probes' Life DOE Test - Improve Probes' Life</li>
@@ -154,7 +243,10 @@
                     <li>Parameter Control Automation - Get Internal Award</li>
                     <li>Machine Log Analysis - Get Internal Award </li>
                 </ol>
-            </p>              
+                </p>
+            </div>
         </div>
-    </body>
+    </main>
+</body>
+
 </html>
