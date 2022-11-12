@@ -5,11 +5,16 @@
     <meta charset="utf-8">
     <title>About JianCheng</title>
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="css/index.css" rel="stylesheet">
 </head>
 
 <body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!--title-->
     <main>
         <div class="container py-4">
@@ -47,101 +52,164 @@
                     </button>
                 </div>
             </div>
-            <hr align="left" size="10" color="#85C1E9" style=" margin:20px;">
-            <!--Work Experience-->
-            <div>
-                <h2 class="all_h">
-                    &nbsp;&nbsp; Work Experience
-                </h2>
-                <!--Sea limited-->
-                <h3 class="all_h">
-                    &nbsp;&nbsp; <u>Data Analyst</u>
-                </h3>
-                <p class="p2">
-                    <strong>Sea Limited</strong>, Taipei City, Taiwan, <i>April 2022 - present</i><br>
-                <ol>
-                    <li>Data Cleaning - Financial Data Cleansing Automation</li>
-                </ol>
-                </p>
-                <!--Topco Global-->
-                <h3 class="all_h">
-                    &nbsp;&nbsp; <u>Data Analyst</u>
-                </h3>
-                <p class="p2">
-                    <strong>Topco Global</strong>, Taipei City, Taiwan, <i>July 2020 - April 2022</i><br>
-                <ol>
-                    <li>Power BI: Importing, teaching and supporting </li>
-                    <li>
-                        Semi-conduction Business
-                        <ul>
-                            <li>Power BI report - Material SPC Chart</li>
-                            <li>Material Consumption Prediction and Procuring Recommendation</li>
-                            <li>PDF Text Capturing Automation</li>
-                            <li>PDF Transfer to Excel Tool</li>
-                        </ul>
-                    </li>
-                    <li>
-                        Retail Business
-                        <ul>
-                            <li>Power BI Report - Retail Overview</li>
-                            <li>Power BI Report - Basket Analysis</li>
-                            <li>Member's Repurchasing Probability in Next 30 days Prediction and Sales Call Member list
-                                Recommendation</li>
-                        </ul>
-                    </li>
-                    <li>Exercise - CPBL Win/Loss Analysis</li>
-                    <li>Solar Energy Business
-                        <ul>
-                            <li>Inverter Input Current Auto-Comparison and Visualization</li>
-                            <li>Taiwan Insolation Duration Visualization</li>
-                            <li>Solar Module Predictive Maintenance</li>
-                        </ul>
-                    </li>
-                </ol>
-                </p>
-                <!--Coretronic-->
-                <h3 class="all_h">
-                    &nbsp;&nbsp; <u>MIS Senior Engineer</u>
-                </h3>
-                <p class="p2">
-                    <strong>Coretronic</strong>, Hsinchu, Taiwan, <i>April 2019 - June 2020</i><br>
-                <ol>
-                    <li>Sales Forecast</li>
-                    <li>Experimental Data Analysis - Gauge RR and Association Rule</li>
-                    <li>Power BI Report: FAB's Yield, Efficiency and CPK Value</li>
-                    <li>Power Bi Support</li>
-                    <li>Last Time buy Estimating</li>
-                    <li>Warranty Price Calculation by Reliability</li>
-                </ol>
-                </p>
-                <!--IE Industrial Engineer-->
-                <h3 class="all_h">
-                    &nbsp;&nbsp; <u>IE Industrial Engineer</u>
-                </h3>
-                <p class="p2">
-                    <strong>SPIL</strong>, Hsinchu, Taiwan, <i>January 2018 - March 2020</i><br>
-                <ol>
-                    <li>Product Price Report Automation</li>
-                    <li>Monthly Cost Calculation Automation</li>
-                    <li>System Design: Testing Time Comparison System</li>
-                    <li>Testing Time prediction Modeling: Establish a Testing Time Prediction Model for IC-Testing</li>
-                </ol>
-                </p>
-                <!--Testing Process Engineer (WSPE)-->
-                <h3 class="all_h">
-                    &nbsp;&nbsp; <u>Testing Process Engineer (WSPE)</u>
-                </h3>
-                <p class="p2">
-                    <strong>SPIL</strong>, Hsinchu, Taiwan, <i>October 2015 - December 2018</i><br>
-                <ol>
-                    <li>Defend T. corp. Suspect the Parameter of the Prober Machine by DOE</li>
-                    <li>N. corp. Probes' Life DOE Test - Improve Probes' Life</li>
-                    <li>Participate and Support to Optimize WS Production Line Automation</li>
-                    <li>Parameter Control Automation - Get Internal Award</li>
-                    <li>Machine Log Analysis - Get Internal Award </li>
-                </ol>
-                </p>
+            <br>
+            <!--collapse-->
+            <div class="d-grid gap-2 d-md-flex justify-content-center">
+                <button class="btn btn-outline-info" type="button" data-toggle="collapse" data-target="#aboutme" aria-expanded="false" aria-controls="aboutme">
+                About Me
+                </button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#workexp" aria-expanded="false" aria-controls="workexp">
+                Work Experience
+                </button>
             </div>
+            <p>
+            <!--About me-->
+                <div class="collapse" id="aboutme">
+                    <div class="card card-body">
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 end-0">
+                                <button type="button" class="btn-close" aria-label="Close" data-toggle="collapse" data-target="#aboutme" aria-expanded="false" aria-controls="aboutme"></button>
+                            </div>
+                                <h3 class="all_h">張健誠
+                                    <small class="text-muted">Jian-Cheng Chang, David Chang</small>
+                                </h3>
+                            <p>
+                                <dl class="row">
+                                    <dt class="col-sm-3">Nationalilty</dt>
+                                    <dd class="col-sm-9"><mark>Taiwan</mark></dd>
+
+                                    <dt class="col-sm-3">Birthday</dt>
+                                    <dd class="col-sm-9">1991/04/21</dd>
+
+                                    <dt class="col-sm-3">Email</dt>
+                                    <dd class="col-sm-9">david0912928@gmail.com</dd>
+
+                                    <dt class="col-sm-3">Skill</dt>
+                                    <dd class="col-sm-9">Statistic, Python, JMP, MSSQL, SAS, SPSS, PLSQL, Power BI, minitab</dd>
+
+                                    <dt class="col-sm-3">Language</dt>
+                                    <dd class="col-sm-9">Chinese, English</dd>
+
+                                    <dt class="col-sm-3">Hobby</dt>
+                                    <dd class="col-sm-9">Fitness, Swimming, Snowboarding, Read, Investment</dd>
+                                </dl>
+                            </p>
+                            <h3 class="all_h">Academic Background</h3>
+                            <br>
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">2013-2015</th>
+                                        <td>Institute of Industrial Engineering and Management</td>
+                                        <td>National Chiao Tung University</td>
+                                    </tr>
+                                        <th scope="row">2009-2013</th>
+                                        <td>Department of Statistics</td>
+                                        <td>National Taipei University</td>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </p>
+            <!--Work Experience-->
+            <p>
+                <div class="collapse" id="workexp">
+                    <div class="card card-body">
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 end-0">
+                                <button type="button" class="btn-close" aria-label="Close" data-toggle="collapse" data-target="#workexp" aria-expanded="false" aria-controls="workexp"></button>
+                            </div>
+                            <!--Sea limited-->
+                            <h3 class="all_h">
+                                &nbsp;&nbsp; <u>Data Analyst</u>
+                            </h3>
+                            <p class="p2">
+                                <strong>Sea Limited</strong>, Taipei City, Taiwan, <i>March 2022 - present</i><br>
+                            <ol>
+                                <li>Support Malaysia Financial Collegues develop financial data cleaning automation with python and sql and link with Shopee's data platform.</li>
+                                <li>Support Singapore HQ Data Team to revise financial data cleaning code.</li>
+                            </ol>
+                            </p>
+                            <!--Topco Global-->
+                            <h3 class="all_h">
+                                &nbsp;&nbsp; <u>Data Analyst</u>
+                            </h3>
+                            <p class="p2">
+                                <strong>Topco Global</strong>, Taipei City, Taiwan, <i>July 2020 - March 2022</i><br>
+                            <ol>
+                                <li>Power BI: Importing, teaching and supporting (Reduce 90% work time)
+                                    <ul>
+                                        <li>Semi-Conductor Chemistry Material SPC Chart</li>
+                                        <li>Retail Information Overview (MoM, YoY, ....)</li>
+                                        <li>Retail Basket Analysis</li>
+                                    </ul>
+                                </li>
+                                <br>
+                                <li>
+                                    AI
+                                    <ul>
+                                        <li>Semi-Conductor Material Consumption Forecast & Procurement Recommendation</li>
+                                        <li>Retail Business Predict Member's Repurchasing Probability in Next 30 days and Sales Call Recommendation</li>
+                                        <li>Solar Power Module Predictive Maintenance</li>
+                                    </ul>
+                                </li>
+                                <br>
+                                <li>
+                                    Routine Job Automation (Reduce 90% work time)
+                                    <ul>
+                                        <li>Semi-Conductor Material Order PDF file Text Capturing & link with Oracle ERP</li>
+                                        <li>Solar Power Module Inverter Input Current Auto-comparison and Visualization</li>
+                                        <li>Taiwan Insolation Duration Visualization</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                            </p>
+                            <!--Coretronic-->
+                            <h3 class="all_h">
+                                &nbsp;&nbsp; <u>MIS Senior Engineer</u>
+                            </h3>
+                            <p class="p2">
+                                <strong>Coretronic</strong>, Hsinchu, Taiwan, <i>April 2019 - June 2020</i><br>
+                            <ol>
+                                <li>Experimental Data Analysis - Gauge RR and Association Rule</li>
+                                <li>Power BI Report: FAB's Yield, Efficiency and CPK Value</li>
+                                <li>Last Time buy Estimating</li>
+                                <li>Warranty Price Calculation by Reliability</li>
+                            </ol>
+                            </p>
+                            <!--IE Industrial Engineer-->
+                            <h3 class="all_h">
+                                &nbsp;&nbsp; <u>IE Industrial Engineer</u>
+                            </h3>
+                            <p class="p2">
+                                <strong>SPIL</strong>, Hsinchu, Taiwan, <i>January 2018 - March 2020</i><br>
+                            <ol>
+                                <li>Product Price Report & Monthly Cost Calculation Automation</li>
+                                <li>System Design: Testing Time Comparison System</li>
+                                <li>Testing Time prediction Modeling: Establish a Testing Time Prediction Model for IC-Testing</li>
+                            </ol>
+                            </p>
+                            <!--Testing Process Engineer (WSPE)-->
+                            <h3 class="all_h">
+                                &nbsp;&nbsp; <u>Testing Process Engineer (WSPE)</u>
+                            </h3>
+                            <p class="p2">
+                                <strong>SPIL</strong>, Hsinchu, Taiwan, <i>October 2015 - December 2018</i><br>
+                            <ol>
+                                <li>Defend T. corp. Suspect the Parameter of the Prober Machine by DOE</li>
+                                <li>N. corp. Probes' Life DOE Test - Improve Probes' Life</li>
+                                <li>Participate and Support to Optimize WS Production Line Automation</li>
+                                <li>Parameter Control & Machine Log Analysis Automation - Get Internal Award</li>
+                            </ol>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </p>
+            <footer class="pt-3 mt-4 text-muted border-top">
+                &copy; 2022
+            </footer>
         </div>
     </main>
 </body>
